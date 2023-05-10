@@ -5,7 +5,7 @@ const liquido = new String('Água');
 // Utilizando o foreach na array abaixo,
 // some os valores de Taxa e os valores de Recebimento
 
-/*const transacoes = [
+const transacoes = [
   {
     descricao: 'Taxa do Pão',
     valor: 'R$ 39',
@@ -27,10 +27,14 @@ const liquido = new String('Água');
     valor: 'R$ 49',
   },
 ];
-*/
+let taxaTotal = 0;
+transacoes.forEach((item) => {
+  if (item.descricao.slice(0, 4) === 'Taxa') taxaTotal = taxaTotal + item.valor;
+});
+console.log(taxaTotal);
 // Retorne uma array com a lista abaixo
 const transportes = 'Carro;Avião;Trem;Ônibus;Bicicleta';
-console.log(transportes);
+transportes.length;
 // Substitua todos os span's por a's
 const html = `<ul>
                 <li><span>Sobre</span></li>
@@ -42,7 +46,7 @@ const html = `<ul>
 const frase = 'Melhor do ano!';
 
 // Retorne o total de taxas
-const transacoes = [
+const transacoes2 = [
   'Taxa do Banco',
   '   TAXA DO PÃO',
   '  taxa do mercado',
