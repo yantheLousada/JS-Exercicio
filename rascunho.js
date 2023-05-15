@@ -1,15 +1,13 @@
-// Declare uma variável contendo uma string
-var string = 'frase';
-// Declare uma variável contendo um número dentro de uma string
-var stringNumero = '8';
-// Declare uma variável com a sua idade
-var idade = 26;
-// Declare duas variáveis, uma com seu nome
-// e outra com seu sobrenome e some as mesmas
-var nome = 'yan';
-var sobrenome = 'the';
-console.log(`${nome} ${sobrenome}`);
-// Coloque a seguinte frase em uma variável: It's time
+/*
+- ONE, if  is equal to .
+- TWO, if  is equal to .
+- THREE, if  is equal to .
+- FOUR, if  is equal to .
+- FIVE, if  is equal to .
+- SIX, if  is equal to .
+- SEVEN, if  is equal to .
+- EIGHT, if  is equal to .
+- NINE, if  is equal to .
+- PLEASE TRY AGAIN, if  is none of the above.
+*/
 
-// Verifique o tipo da variável que contém o seu nome
-console.log(typeof nome);
