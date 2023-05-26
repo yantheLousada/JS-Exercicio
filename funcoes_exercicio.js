@@ -26,3 +26,8 @@ console.log(par(10));
 function typeoff(param) {
   return typeof param;
 }
+
+// Crie uma função que retorne a area um triangulo
+function triArea(base, height) {
+  return (base * height) / 2;
+}
