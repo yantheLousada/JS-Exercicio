@@ -31,3 +31,7 @@ function typeoff(param) {
 function triArea(base, height) {
   return (base * height) / 2;
 }
+// Crie uma função que retorne true se o primeiro OU o ultimo numero do array for 6
+function firstLast6(nums) {
+  return nums[0] === 6 || nums[nums.length - 1] === 6;
+}
