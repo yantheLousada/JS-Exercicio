@@ -15,9 +15,7 @@ Pessoa.prototype.nomeCompleto = function () {
 const yan = new Pessoa('yan', 'the', 26);
 console.log(yan);
 
-// Liste os métodos acessados por
-// dados criados com NodeList,
-// HTMLCollection, Document
+// Liste os métodos acessados por dados criados com NodeList,HTMLCollection, Document
 
 // Liste os construtores dos dados abaixo
 const li = document.querySelector('li');
