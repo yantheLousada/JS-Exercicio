@@ -66,4 +66,4 @@ const bruno = new Pessoa('Bruno', 15);
   this.removeClass;
 }
 */
-console.log('oi');
+console.log('oiii');
